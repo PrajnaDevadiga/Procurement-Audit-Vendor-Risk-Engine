@@ -1,0 +1,33 @@
+{
+    "audit_summary": {
+        "total_orders_processed": 100,
+        "valid_orders": 88,
+        "invalid_orders": 12,
+        "high_value_orders": 1,
+        "duplicate_orders": 0,
+        "blacklisted_vendor_attempts": 9,
+        "total_procurement_spend": 1792250.0
+    },
+    "vendor_risk_distribution": {
+        "LOW": 36,
+        "CRITICAL": 4,
+        "MEDIUM": 0,
+        "HIGH": 0
+    },
+    "rejection_reasons_distribution": {
+        "Vendor ID does not exist in master data": 1,
+        "Order amount must be positive": 1,
+        "Vendor is blacklisted": 9,
+        "Invalid order date format": 1
+    },
+    "category_spend_distribution": {
+        "ELECTRONICS": 333250,
+        "FACILITY": 428000,
+        "IT": 345000,
+        "OFFICE": 686000
+    },
+    "monthly_spend_trend": {
+        "2025-10": 1792250
+    },
+    "timestamp": "2026-07-02T21:38:28.439984"
+}
